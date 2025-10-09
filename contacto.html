@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Contacto - Feria de Viajes Bilbao 2025</title>
+    <link rel="stylesheet" href="estilos/estilos.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="expositores.html">Expositores</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contacto</h1>
+            <p>Si tienes alguna duda o consulta, completa el siguiente formulario:</p>
+
+            <form action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain" onsubmit="validarFormulario(event)">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required /><br />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required /><br />
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea><br />
+
+                <input type="submit" value="Enviar" />
+            </form>
+
+            <p>O contáctanos directamente al correo: <a href="mailto:info@feriaviajesbilbao.com">info@feriaviajesbilbao.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Feria de Viajes Bilbao. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="funciones/funciones.js"></script>
+</body>
+</html>

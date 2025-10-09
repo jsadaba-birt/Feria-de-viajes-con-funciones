@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Destinos - Feria de Viajes Bilbao 2025</title>
+    <link rel="stylesheet" href="estilos/estilos.css" />
+    <style>
+        /* Transición suave al marcar favorito */
+        ul {
+            transition: background-color 0.3s ease;
+            padding: 10px;
+            list-style-type: disc;
+        }
+
+        button {
+            margin: 5px 0 20px 0;
+            padding: 6px 12px;
+            cursor: pointer;
+            border: 1px solid #0077b6;
+            border-radius: 5px;
+            background-color: #e7f3ff;
+            font-weight: bold;
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="expositores.html">Expositores</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Destinos de la Feria</h1>
+            <p>Explora los destinos más fascinantes que puedes visitar. Desde playas paradisíacas hasta ciudades culturales y excursiones de montaña.</p>
+            
+            <h2>Destinos Internacionales</h2>
+<ul class="lista-destinos">
+    <li>París, Francia</li>
+    <li>Roma, Italia</li>
+    <li>Tokio, Japón</li>
+</ul>
+
+<h2>Destinos Nacionales</h2>
+<ul class="lista-destinos">
+    <li>San Sebastián</li>
+    <li>Madrid</li>
+    <li>Barcelona</li>
+</ul>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Feria de Viajes Bilbao. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="funciones.js"></script>
+</body>
+</html>

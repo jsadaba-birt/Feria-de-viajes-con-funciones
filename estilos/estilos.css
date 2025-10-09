@@ -1,0 +1,136 @@
+/* =========================
+   Estilos generales
+========================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+h1, h2 {
+    color: #004080;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* =========================
+   Cabecera y menú
+========================= */
+header {
+    background-color: #004080;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0066cc;
+    border-radius: 5px;
+}
+
+/* =========================
+   Secciones principales
+========================= */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto; /* evita deformación */
+    display: block;
+    margin: 10px 0;
+}
+
+/* =========================
+   Listas
+========================= */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* =========================
+   Formulario
+========================= */
+form {
+    background-color: #e6f0ff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+form label {
+    display: inline-block;
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #004080;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0066cc;
+}
+
+/* =========================
+   Pie de página
+========================= */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
