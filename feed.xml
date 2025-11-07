@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Feria de viajes Bilbao 2025</title>
+    <link>https://jsadaba-birt.github.io/Feria-de-viajes-con-funciones/</link>
+    <description>Novedades de la Feria de viajes Bilbao 2025</description>
+    
+    <item>
+      <title>Novedad en Destinos</title>
+      <link>https://jsadaba-birt.github.io/Feria-de-viajes-con-funciones/Destinos.html</link>
+      <description>Se ha añadido la función de marcar destino favorito en la página de Destinos.</description>
+      <pubDate>Thu, 07 Nov 2025 12:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>Novedad en Expositores</title>
+      <link>https://jsadaba-birt.github.io/Feria-de-viajes-con-funciones/Expositores.html</link>
+      <description>Se ha añadido la función que cuenta automáticamente el número de expositores listados.</description>
+      <pubDate>Thu, 07 Nov 2025 15:00:00 +0000</pubDate>
+    </item>
+
+  </channel>
+</rss>
